@@ -3,7 +3,7 @@
 ⚡LLM2Json⚡是一个易于使用的格式化大语言模型输出工具包，它的主要设计思想和部分实现代码参考 <a href="https://github.com/langchain-ai/langchain">LangChain</a>（但输出效果初步测试优于Langchain）。它可以通过自动构建prompts引导大语言模型输出符合JSON语法的返回数据，解决了大语言模型格式化输出、数据交互、前端开发等遇到的数据格式相关问题，使下游的应用程序、GPTs、Agents等开发更加方便快捷。
 
 # 🚀快速开始
-
+> 在线Notebook运行：https://aistudio.baidu.com/projectdetail/7412328?contributionType=1
 ## pip 安装
 
 ```bash
@@ -40,7 +40,7 @@ t = Templates(prompt="""
               包括文章标题、正文内容和关键词，同时正文需要包含emoji表情
               """, 
           field=Xiaohongshu,
-          correct_example=correct_example)mple)
+          correct_example=correct_example)
 
 template = t.invoke(topic="文心牌润唇膏")
 ```
