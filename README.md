@@ -1,6 +1,6 @@
 <center><img src="./assets/logo.png" /></center>
 <p />
-⚡LLM2Json⚡是一个易于使用的格式化大语言模型输出工具包，它的主要设计思想和部分实现代码参考 [Langchain](https://github.com/langchain-ai/langchain) 的output parser（但初步输出结果测试优于Langchain）。它可以通过自动构建prompts引导大语言模型输出符合JSON语法的返回数据，解决了大语言模型格式化输出、数据交互、前端开发等遇到的数据格式相关问题，使下游的应用程序、GPTs、Agents等开发更加方便快捷。
+⚡LLM2Json⚡是一个易于使用的格式化大语言模型输出工具包，它的主要设计思想和部分实现代码参考 <a href="https://github.com/langchain-ai/langchain">LangChain</a>（但输出效果初步测试优于Langchain）。它可以通过自动构建prompts引导大语言模型输出符合JSON语法的返回数据，解决了大语言模型格式化输出、数据交互、前端开发等遇到的数据格式相关问题，使下游的应用程序、GPTs、Agents等开发更加方便快捷。
 
 # 🚀快速开始
 
